@@ -1,0 +1,30 @@
+{
+  "name": "timebandits",
+  "version": "1.0.0",
+  "description": "timestamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kire73/timebandits.git"
+  },
+  "keywords": [
+    "timestamp",
+    "microservice",
+    "fcc",
+    "backend",
+    "api",
+    "projects"
+  ],
+  "author": "kire73",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kire73/timebandits/issues"
+  },
+  "homepage": "https://github.com/kire73/timebandits#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
