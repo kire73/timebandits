@@ -40,5 +40,5 @@ app.get('/:id', function (req, res) {
 });
 
 app.listen(process.env.PORT, function () {
-  console.log('https://http://timedougstamper.herokuapp.com/\nTimestamp Microservice active\nListening to port 8080:');
+  console.log('http://timedougstamper.herokuapp.com/\nTimestamp Microservice active\nListening to port ' +  process.env.PORT + ':');
 });
