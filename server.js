@@ -39,6 +39,6 @@ app.get('/:id', function (req, res) {
   res.send(now);
 });
 
-app.listen(8080, function () {
-  console.log('https://stampede-evilloria.c9users.io/\nTimestamp Microservice active\nListening to port 8080:');
+app.listen(process.env.PORT, function () {
+  console.log('https://http://timedougstamper.herokuapp.com/\nTimestamp Microservice active\nListening to port 8080:');
 });
